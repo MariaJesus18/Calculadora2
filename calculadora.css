@@ -1,0 +1,90 @@
+body{
+	background: linear-gradient(90deg, rgba(153,224,137,1) 2%, rgba(10,130,15,1) 100%);
+}
+
+h1{
+	font-family: "Adobe Arabic";
+	font-size: 50px;
+	text-align: center;
+	color: #042f05;
+}
+
+#resultado{
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	width: 210px;
+	height: 40px;
+	font-family: "Adobe Arabic";
+	font-size: 37px;
+	color: #042f05;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	text-align: right;
+	padding: 3px 8px; 
+}
+
+.aparelho{
+	width: 17.5%;
+	height: 70%;
+	border: none;
+	border-radius: 10px;
+	background-color: #042f05;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 1%;
+}
+
+.botão{
+	background-color: #99e089;
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
+	font-family: "Adobe Arabic";
+	font-size: 30px;
+	color: #042f05;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.botão:hover{
+	background-color: #ffffff;
+}
+
+#botãoigual{
+	background-color: #99e089;
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+	height: 106px;
+	font-family: "Adobe Arabic";
+	font-size: 30px;
+	color: #042f05;
+	cursor: pointer;
+	margin: 2px;
+}
+
+#botãozero{
+	background-color: #99e089;
+	border: none;
+	border-radius: 5px;
+	width: 106px;
+	height: 50px;
+	font-family: "Adobe Arabic";
+	font-size: 30px;
+	color: #042f05;
+	cursor: pointer;
+	margin: 2px;
+}
+
+#botãozero:hover{
+	background-color: #ffffff;
+}
+
+#botãoigual:hover{
+	background-color: #ffffff;
+}
